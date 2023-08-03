@@ -1,0 +1,26 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.form
+    background: $lightGray
+
+    &__title
+        margin-bottom: 30px !important
+        @include font(24px, $mainBlack, bold)
+    // &__text
+    //     @include font(24px ,  #757575 , bold)
+    //     margin-bottom: 30px !important
+
+
+    @media (max-width: 767px)
+        &__input
+            width: 100%
+            // display: none
+            max-width: 358px
+            border-radius: 6px
+
+    &__btn
+        height: 45px !important
+        width: 100% !important
+        margin-top: 20px !important
+
+        @include font(20px, $white, medium)

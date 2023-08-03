@@ -1,0 +1,70 @@
+{
+    "error": {
+        "allFieldsRequired": "All fields are required",
+        "allFieldsNamesRequired": "All fields of names required",
+        "selectFileRequired": "Select file is required",
+        "selectGroupRequired": "Select group is required",
+        "noData": "No data",
+        "maxSizeFile": "File size limited to 10 mb"
+    },
+    "successfully": {
+        "file": "File added successfully",
+        "completed": "Successfully completed"
+    },
+    "sidebar": {
+        "main": "Main",
+        "profile": "Profile",
+        "files": "Files",
+        "groups": "Groups",
+        "timetable": "Timetable"
+    },
+    "calendar": {
+        "lesson": "Lesson",
+        "startLesson": "Start lesson",
+        "endLesson": "End lesson",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+    },
+    "group": {
+        "listGroups": "List of Groups"
+    },
+    "common": {
+        "personalData": "Personal data",
+        "additional": "Additional",     
+        "select_file": "Select file",
+        "my_files": "My files",
+        "download": "Download",
+        "file": "File",
+        "logout": "Logout",
+        "check": "Check",
+        "date": "Date",
+        "description": "Description",
+        "status": "Position",
+        "subject": "Subject{s}",
+        "subjectCode": "Status",
+        "group": "Group",
+        "branch": "Branch",
+        "room": "Room",
+        "add": "  + Add",
+        "delete": "Delete",
+        "send": "Send",
+        "signIn": "Sign in",
+        "search": "Search",
+        "mentor": "Mentor{s}",
+        "student": "Student{s}",
+        "manager": "Manager",
+        "view": "View",
+        "change": "Change",
+        "first_name": "Name",
+        "last_name": "Surname",
+        "phone_num": "Phone",
+        "username": "Login",
+        "password": "Password" ,
+        "information_system" : "LMS educational information system"
+    }
+}

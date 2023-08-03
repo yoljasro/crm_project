@@ -1,0 +1,89 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.calendar
+    flex-wrap: nowrap !important
+    overflow-x: scroll !important 
+
+    &__column
+        width: 100%
+        padding: 0 8px
+        min-width: 145px
+        border-left: 1px solid $gray
+        background-image: none !important
+
+    &__title
+        height: 60px !important
+        background: $white !important
+        border-bottom: 1px solid $gray !important
+
+    &__day
+        left: 0
+        width: 100%
+        flex-wrap: wrap
+        position: absolute
+        text-align: center
+        align-items: center
+        height: 60px !important
+        display: flex !important
+        background: $white !important
+        border-bottom: 1px solid $gray !important
+
+        &__week
+            width: 100%
+
+            @include font(16px, $grayDark, medium)
+
+        &__month
+            width: 100%
+
+            @include font(16px, $mainBlack, medium)
+
+    &__hour
+        width: 60px
+        height: 85px !important
+        padding-top: 10px !important
+        background: $white !important
+
+        @include font(14px, $mainBlack, regular)
+
+        &__line
+            width: 20px
+            height: 1px
+            background: $gray
+            margin: 10px 20px 0 auto
+
+    &__event
+        width: calc(100% - 16px)
+        border-radius: 8px
+        position: absolute
+
+        &__cont
+            overflow: hidden
+            height: inherit
+            padding: 15px 10px
+            position: relative
+
+        &__subject
+            position: absolute
+            top: 5px
+            left: 10px
+
+            @include font(14px, $mainBlack, regular)
+
+        &__contText
+            position: absolute
+            bottom: 5px
+            left: 10px
+
+        &__mentor
+            margin-bottom: 5px
+
+            @include font(12px, $mainBlack, regular)
+
+        &__room
+            margin-bottom: 5px
+            
+            @include font(10px, $mainBlack, regular)
+
+        &__time
+            @include font(10px, $mainBlack, bold)

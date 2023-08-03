@@ -1,0 +1,25 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.form
+    @include form
+
+.list
+    overflow: scroll !important
+
+    &__cont
+        display: flex
+        min-width: 700px
+        padding: 10px 0
+        list-style: none
+        margin-top: 20px
+        align-items: center
+        border: 2px solid $gray
+        justify-content: space-between
+
+    &__item
+        padding: 0 20px
+        width: calc(100% / 4)
+        @include font(16px, $mainBlack, medium)
+
+        &:not(:last-child)
+            border-right: 1px solid $gray

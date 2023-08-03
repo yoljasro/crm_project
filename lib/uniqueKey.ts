@@ -1,0 +1,1 @@
+export const uniqueKey = (key: number | string) => Math.random().toString() + key;

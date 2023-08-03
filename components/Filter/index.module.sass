@@ -1,0 +1,43 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.filter
+    background: $lightGray
+
+    &__selectCont
+        display: flex
+        margin: -10px
+        justify-content: center
+        // flex-wrap: wrap
+
+    &__formControl   
+        width: 100%
+        max-width: 300px
+        margin: 10px !important
+        
+
+    &__select
+        background: $white
+        // border: none !important
+        // outline: none !important
+        border-color:  #FFFFFF
+        border-radius: 40px
+
+
+    &__btn
+        display: block !important
+        margin: 15px 0 0 !important
+
+        @include font(18px, $white, medium)
+
+    @media (max-width: 767px)
+        &__selectCont   
+            display: flex
+            justify-content: center
+            align-items: center         
+
+        &__formControl
+            // max-width: calc(100% - 20px)
+
+        &__btn
+            font-size: 16px !important
+            margin: 15px auto 0 !important            

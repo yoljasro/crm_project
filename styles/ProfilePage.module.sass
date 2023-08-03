@@ -1,0 +1,74 @@
+@import ./variables, ./mixins
+
+.profile
+    padding: 15px 40px
+    position: relative
+    min-height: calc(100vh - 90px)
+
+    &__header
+        display: flex
+        align-items: center
+        margin-bottom: 90px
+        justify-content: space-between
+
+        &__cont
+            display: flex
+            align-items: center
+
+        &__img
+            margin-right: 40px
+
+            & span
+                border-radius: 50% !important
+
+        &__name
+            @include font(24px, $mainBlack, medium)
+
+        &__phone
+            @include font(20px, $mainBlack, medium)
+
+    &__data
+        &__item
+            @include font(18px, $grayDark, regular)
+
+            &__span
+                margin-left: 123px
+                text-align: left
+                @include font(18px , #000000 ,medium)
+
+            & + &
+                margin-top: 20px
+
+    &__logout
+        left: 40px !important
+        bottom: 30px !important
+        position: absolute !important
+        border-radius: 0 !important
+
+        @include font(16px, $mainBlack, regular)
+
+        &__icon
+            margin-right: 15px !important
+
+    @media (max-width: 991px)
+        min-height: auto
+
+        &__header
+            display: block
+
+        &__data
+            margin-bottom: 40px
+
+        &__logout
+            position: static !important
+
+    @media (max-width: 767px)
+        &__header
+            margin-bottom: 50px
+            
+            &__cont
+                text-align: center
+                display: block
+
+            &__img
+                margin-right: 0

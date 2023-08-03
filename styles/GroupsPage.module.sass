@@ -1,0 +1,14 @@
+@import ./variables, ./mixins
+
+.groups
+    &__cont
+        padding: 24px 40px
+        background: $lightGray
+        min-height: calc(100vh - 90px)
+
+    &__modal
+        &__text
+            @include font(18px, $mainBlack, medium)
+
+            & + &
+                margin-top: 20px !important

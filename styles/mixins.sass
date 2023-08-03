@@ -1,0 +1,114 @@
+@mixin font($size, $color, $weight)
+    font-size: $size !important
+    color: $color !important
+
+    @if $weight == regular
+        font-weight: 400 !important
+        font-family: Montserrat-Regular !important
+    @else if $weight == medium
+        font-weight: 500 !important
+        font-family: Montserrat-Medium !important
+    @else if $weight == semibold
+        font-weight: 600 !important
+        font-family: Montserrat-SemiBold !important
+    @else if $weight == bold
+        font-weight: 700 !important
+        font-family: Montserrat-Bold !important
+
+@mixin form
+    &__cont
+        display: flex
+        margin: -10px
+        flex-wrap: wrap
+
+    &__input, &__select, &__date
+        width: 100% !important
+        margin: 10px !important
+        max-width: 300px !important
+
+    &__btn
+        margin-top: 30px !important
+
+@mixin btn
+    border: none
+    cursor: pointer
+    transition: .3s
+    background: transparent
+
+@mixin contFilesPage
+    padding: 15px 20px
+    background: $lightGray
+    height: calc(100vh - 90px)
+
+@mixin fileFilesPage
+    width: 100%
+    display: flex
+    min-height: 125px
+    padding: 15px 20px
+    border-radius: 8px
+    background: $white
+    align-items: center
+    border: 1px solid $gray
+    justify-content: space-between
+
+    &__content
+        &__user
+            @include font(18px, $mainBlack, regular)
+
+        &__group
+            margin: 15px 0
+
+            @include font(16px, $mainBlack, regular)
+
+        &__date
+            @include font(16px, $grayDark, regular)
+
+            & span
+                color: $mainBlack
+
+    &__additional
+        display: flex
+        align-items: center
+
+        &__btn
+            display: flex
+            padding: 8px 10px
+            align-items: center
+            margin-right: 10px
+
+            @include btn
+            @include font(16px, $blue, regular)
+
+            & span
+                margin-right: 10px !important
+
+            &:hover
+                background: rgba(0, 108, 221, 0.1)
+
+    & + &
+        margin-top: 10px
+
+    @media (max-width: 574px)
+        display: block
+
+        &__additional
+            margin-top: 15px
+
+@mixin groupFilesPage
+    margin-bottom: 20px
+
+    &__formControl
+        width: 100% !important
+        max-width: 300px !important
+
+    &__select
+        background: $white !important
+
+    &__btn
+        display: block !important
+        margin-top: 10px !important
+
+@mixin pagination
+    display: flex
+    margin-top: 40px
+    justify-content: center

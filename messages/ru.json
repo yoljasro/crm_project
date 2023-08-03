@@ -1,0 +1,70 @@
+{
+    "error": {
+        "allFieldsRequired": "Все поля обязательны",
+        "allFieldsNamesRequired": "Все поля имен обязательны",
+        "selectFileRequired": "Выбрать файл обязательно",
+        "selectGroupRequired": "Выбрать группу обязательно",
+        "noData": "Нет данных",
+        "maxSizeFile": "Размер файла ограничен 10 мб"
+    },
+    "successfully": {
+        "file": "Файл успешно добавлен",
+        "completed": "Успешно выполнено"
+    },
+    "sidebar": {
+        "main": "Главная",
+        "profile": "Профиль",
+        "files": "Файлы",
+        "groups": "Группы",
+        "timetable": "Расписание"
+    },
+    "calendar": {
+        "lesson": "Урок",
+        "startLesson": "Начало урока",
+        "endLesson": "Конец урока",
+        "monday": "Понедельник",
+        "tuesday": "Вторник",
+        "wednesday": "Среда",
+        "thursday": "Четверг",
+        "friday": "Пятница",
+        "saturday": "Суббота",
+        "sunday": "Воскресенье"
+    },
+    "group": {
+        "listGroups": "Список групп"
+    },
+    "common": {
+        "personalData": "Персональные данные",
+        "additional": "Дополнительно",  
+        "select_file": "Выбрать файл",
+        "my_files": "Mои файлы",
+        "download": "Скачать",
+        "file": "Файл",
+        "logout": "Выйти",
+        "check": "Проверить",
+        "date": "Дата",
+        "description": "Описание",
+        "status": "Звание",
+        "subject": "Предмет{s}",
+        "subjectCode": "Статус",
+        "group": "Группа",
+        "branch": "Филиал",
+        "room": "Комната",
+        "add": " + Добавить",
+        "delete": "Удалить",
+        "search": "Поиск",
+        "signIn": "Войти",
+        "send": "Отправить",
+        "mentor": "Учитель{s}",
+        "student": "Ученик{s}",
+        "manager": "Менеджер",
+        "view": "Просмотр",
+        "change": "Изменить",
+        "first_name": "Имя",
+        "last_name": "Фамилия",
+        "phone_num": "Телефон",
+        "username": "Логин",
+        "password": "Пароль" , 
+        "information_system" : "Образовательная информационная система LMS"
+    }
+}

@@ -1,0 +1,75 @@
+@import ./variables, ./mixins
+
+.users
+    &__cont
+        padding: 24px 20px
+        background: $lightGray
+        min-height: calc(100vh - 90px)
+
+    &__modal
+        &__cont
+            display: flex
+            align-items: center
+
+        &__img
+            margin-right: 25px
+
+            & span
+                border-radius: 50% !important
+
+        &__userName
+            @include font(18px, $mainBlack, medium)
+
+        &__status
+            @include font(18px, $grayDark, regular)
+
+        &__title
+            margin: 30px 0 !important
+            text-align: center !important
+
+            @include font(24px, $mainBlack, medium)
+
+        &__text
+            width: 100%
+            display: flex !important
+            overflow: scroll !important
+
+            @include font(18px, $grayDark, regular)
+
+            &__span
+                width: 50%
+                display: block
+                margin-left: auto
+                color: $mainBlack
+
+            & + &
+                margin-top: 15px !important
+
+    &__modalChange
+        &__title
+            text-align: center
+            margin: 0 0 30px !important
+
+            @include font(24px, $mainBlack, medium)
+
+        &__cont
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+
+        &__input
+            width: calc(50% - 20px)
+            margin-top: 20px !important
+
+        &__btn
+            width: 100%
+            margin-top: 20px !important
+
+            @include font(20px, $white, semibold)
+
+        @media (max-width: 767px)
+            &__title
+                margin: 0 0 15px !important
+
+            &__input
+                width: 100%

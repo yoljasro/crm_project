@@ -1,0 +1,70 @@
+{
+    "error": {
+        "allFieldsRequired": "Hamma maydonlani to'ldirish shart",
+        "allFieldsNamesRequired": "Hamma ismlar maydonini to'ldirish shart",
+        "selectFileRequired": "Fayl tanlash shart",
+        "selectGroupRequired": "Gruppani tanlash shart",
+        "noData": "Malumotlar yo'q",
+        "maxSizeFile": "Fayl hajmi 10 mb bilan cheklangan"
+    },
+    "successfully": {
+        "file": "Fayl muvaffaqiyatli qo'shildi",
+        "completed": "Muvaffaqiyatli yakunlandi"
+    },
+    "sidebar": {
+        "main": "Bosh sahifa",
+        "profile": "Profil",
+        "files": "Fayllar",
+        "groups": "Guruhlar",
+        "timetable": "Jadval"
+    },
+    "calendar": {
+        "lesson": "Dars",
+        "startLesson": "Dars boshlanishi",
+        "endLesson": "Dars tugashi",
+        "monday": "Dushanba",
+        "tuesday": "Seshanba",
+        "wednesday": "Chorshanba",
+        "thursday": "Payshanba",
+        "friday": "Juma",
+        "saturday": "Shanba",
+        "sunday": "Yakshanba"
+    },
+    "group": {
+        "listGroups": "Guruhlar ro'yhati"
+    },
+    "common": {
+        "personalData": "Shaxsiy ma'lumot",
+        "additional": "Qo'shimcha",  
+        "select_file": "Fayl tanlash",
+        "my_files": "Mening fayllarim",
+        "download": "Yuklab olish",
+        "file": "Fayl",
+        "logout": "Chiqish",
+        "check": "Tekshirish",
+        "date": "Sana",
+        "description": "Tavsifi",
+        "status": "Unvon",
+        "subject": "Fan{s}",
+        "subjectCode": "Status",
+        "group": "Guruh",
+        "branch": "Filial",
+        "room": "Xona",
+        "add": " + Qo'shish",
+        "delete": "O'chirish",
+        "search": "Qidiruv",
+        "signIn": "Kirish",
+        "send": "Jo'natish",
+        "mentor": "Ustoz{s}",
+        "student": "O'quvchi{s}",
+        "manager": "Menejer",
+        "view": "Ko'rish",
+        "change": "O'zgartirish",
+        "first_name": "Ism",
+        "last_name": "Familiya",
+        "phone_num": "Telefon",
+        "username": "Login",
+        "password": "Parol"  , 
+        "information_system" : "LMS ta'lim axborot tizimi"
+    }
+}

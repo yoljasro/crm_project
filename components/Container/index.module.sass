@@ -1,0 +1,14 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.container
+    display: flex
+
+    &__main
+        transition: .3s
+        margin-left: auto
+        padding-top: 90px
+        width: calc(100% - 300px)
+
+    @media (max-width: 991px)
+        &__main
+            width: 100%

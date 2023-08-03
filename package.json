@@ -1,0 +1,40 @@
+{
+  "name": "rd-lab",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/lab": "^5.0.0-alpha.103",
+    "@mui/material": "^5.10.8",
+    "@mui/x-date-pickers": "^5.0.5",
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^1.1.0",
+    "dayjs": "^1.11.6",
+    "formik": "^2.2.9",
+    "moment": "^2.29.4",
+    "next": "^12.3.1",
+    "next-intl": "^2.7.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.4",
+    "react-timetable-events": "^2.0.0",
+    "react-use-downloader": "^1.2.0",
+    "sass": "^1.55.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.8.3",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "typescript": "4.8.4"
+  }
+}

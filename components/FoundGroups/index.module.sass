@@ -1,0 +1,52 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.list
+    margin-top: 24px
+
+    &__title
+        margin-bottom: 25px
+        
+        @include font(24px, $mainBlack, medium)
+
+    &__item
+        width: 100%
+        display: flex
+        padding: 10px 20px
+        background: $white
+        border-radius: 8px
+        align-items: center
+        border: 1px solid $grayDark
+        justify-content: space-between
+
+        &__name
+            margin-bottom: 20px
+
+            @include font(20px, $blue, regular)
+
+        &__info
+            @include font(14px, $grayDark, regular)
+
+            & span 
+                color: $mainBlack
+
+            & + & 
+                margin-top: 7px
+
+        &__btn
+            padding: 5px
+            display: flex
+            border-radius: 8px
+            align-items: center
+            justify-content: center
+
+            @include btn
+            @include font(18px, $editYellow, medium)
+
+            height: 38px
+            background: $lightGray
+
+        & + & 
+            margin-top: 15px
+
+    &__pagination
+        @include pagination

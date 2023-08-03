@@ -1,0 +1,12 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.myFiles
+    @include contFilesPage
+
+    background: $white
+
+    &__group
+        @include groupFilesPage
+
+    &__file
+        @include fileFilesPage

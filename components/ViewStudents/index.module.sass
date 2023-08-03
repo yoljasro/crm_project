@@ -1,0 +1,20 @@
+@import ../../styles/variables, ../../styles/mixins
+
+.list
+    padding: 10px 20px
+    background: $lightGray
+
+    &__row
+        cursor: pointer !important
+
+    &__group
+        @include groupFilesPage
+
+    &__title
+        @include font(18px, $mainBlack, medium)
+        
+    &__item
+        @include font(18px, $mainBlack, regular)
+
+    &__pagination
+        @include pagination
